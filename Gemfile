@@ -9,6 +9,8 @@ gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
 # Use Puma as the app server
 gem 'bootstrap-sass', '3.4.1'
 
+gem 'active_storage_validations', '0.8.2'
+
 gem 'puma', '~> 4.1'
 
 gem 'bcrypt', '3.1.13'
@@ -25,6 +27,8 @@ gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
+gem 'image_processing', '1.9.3'
+gem 'mini_magick', '4.9.5'
 
 gem 'awesome_print'
 # Use Redis adapter to run Action Cable in production
